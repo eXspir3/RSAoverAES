@@ -1,6 +1,6 @@
 # RSAoverAES 1.0.2
 
-*RSAoverAES is a tool ot help oyu securly store data by encrypting Files with AES-128 GCM NoPadding and saving the AES-Key in a 
+*RSAoverAES is a tool ot help you securly store data by encrypting Files with AES-128 GCM NoPadding and saving the AES-Key in a 
  encrypted File using RSA/OAEP/SHA512withMGF1 Encryption*
 
 ## CommandLine Arguments:
