@@ -76,7 +76,6 @@ class EncryptionHandler {
         Files.createFile(fileDecrypted);
         String aesDecrypted = new String(Base64.getDecoder().decode(AesCrypt.decryptSymmetric(new String(Files.readAllBytes(fileToDecrypt), StandardCharsets.UTF_8),
                 AESKey).getBytes()));
-        System.out.println(aesDecrypted);
         Files.write(fileDecrypted, aesDecrypted.getBytes(), StandardOpenOption.APPEND);
         System.out.println("Saved AES-Decrypted File to: " + fileDecrypted.toString());
     }
