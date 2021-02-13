@@ -1,3 +1,4 @@
+# DO NOT USE A RANDOM GITHUB REPO FOR CRYPTOGRAPHY - this was made only for my own education and is probably not secure!
 # RSAoverAES 1.0.2
 
 *RSAoverAES is a tool ot help you securly store data by encrypting Files with AES-128 GCM NoPadding and saving the AES-Key in a 
